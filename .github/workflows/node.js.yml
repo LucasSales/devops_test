@@ -28,7 +28,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install dependencies
-      run: npm intall
+      run: npm install
     - name: Linter (ESLint)
       run: npm run lint
     - name: Test (Jest)
